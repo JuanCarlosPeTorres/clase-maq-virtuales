@@ -1,0 +1,17 @@
+Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y en otros no?
+
+Los lenguajes de programacion estan disenados con sintaxis y reglas especificas que se ajustan a ciertas plataformas y entornos. Algunos lenguajes estan optimizados para sistemas operativos o arquitecturas particulares, lo que puede limitar su compatibilidad con otros sistemas. Ademas, las bibliotecas y herramientas disponibles en cada sistema operativo pueden diferir, lo que afecta la viabilidad de un lenguaje en un entorno especifico.
+
+Que tipo de maquina virtual soporta VirtualBox?
+
+VirtualBox soporta diferentes tipos de maquinas virtuales, incluyendo sistemas operativos como Windows, Linux, macOS y otros sistemas operativos invitados que se pueden ejecutar en un sistema operativo anfitrion.
+
+Que funcion cumple el hypervisor en la virtualizacion?
+
+Un hypervisor es el software que permite la virtualizacion, permitiendo la creacion y gestion de multiples maquinas virtuales en un solo servidor fisico. Actua como intermediario entre el hardware fisico y las maquinas virtuales, asignando y gestionando recursos como CPU, memoria y almacenamiento para cada maquina virtual de manera eficiente y aislada.
+
+Si tengo mas de una maquina virtual instalada, y una se rompe, ¿esto afecta a las demas? ¿Por que?
+
+En general, una maquina virtual que se rompa o tenga problemas tecnicos no deberia afectar a las demas maquinas virtuales en el mismo entorno de virtualizacion. Esto se debe a que las maquinas virtuales estan aisladas unas de otras gracias al hypervisor, que garantiza que los problemas en una maquina virtual no se propaguen a las demas.
+
+Sin embargo, en situaciones muy especificas, como problemas graves en el sistema de virtualizacion o la comparticion excesiva de recursos, podria haber un impacto indirecto en otras maquinas virtuales. En condiciones normales y con un adecuado equilibrio de recursos y configuracion, una maquina virtual con problemas no deberia afectar negativamente a las demas.
